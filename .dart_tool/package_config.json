@@ -176,6 +176,12 @@
       "languageVersion": "1.24"
     },
     {
+      "name": "equatable",
+      "rootUri": "file:///Users/rodrigorahman/.pub-cache/hosted/pub.dartlang.org/equatable-1.2.4",
+      "packageUri": "lib/",
+      "languageVersion": "2.0"
+    },
+    {
       "name": "fixnum",
       "rootUri": "file:///Users/rodrigorahman/.pub-cache/hosted/pub.dartlang.org/fixnum-0.10.11",
       "packageUri": "lib/",
@@ -292,6 +298,12 @@
     {
       "name": "mime",
       "rootUri": "file:///Users/rodrigorahman/.pub-cache/hosted/pub.dartlang.org/mime-0.9.7",
+      "packageUri": "lib/",
+      "languageVersion": "2.0"
+    },
+    {
+      "name": "mockito",
+      "rootUri": "file:///Users/rodrigorahman/.pub-cache/hosted/pub.dartlang.org/mockito-4.1.1",
       "packageUri": "lib/",
       "languageVersion": "2.0"
     },
@@ -560,7 +572,7 @@
       "languageVersion": "2.1"
     }
   ],
-  "generated": "2020-08-18T00:43:18.788314Z",
+  "generated": "2020-08-25T01:02:28.540362Z",
   "generator": "pub",
   "generatorVersion": "2.9.1"
 }
