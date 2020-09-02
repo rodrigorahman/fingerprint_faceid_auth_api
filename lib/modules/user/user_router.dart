@@ -1,22 +1,19 @@
 
 import 'package:fingerprint_faceid_auth_api/application/routers/i_router.dart';
 import 'package:fingerprint_faceid_auth_api/fingerprint_faceid_auth_api.dart';
+import 'package:fingerprint_faceid_auth_api/modules/user/presenter/controller/login_controller.dart';
+import 'package:get_it/get_it.dart';
 
 class UserRouter implements IRouter {
   
   @override
   void configure(Router router) {
+    
     router
-      .route("/example")
-      .linkFunction((request) async {
-        return Response.ok({"Tag": "Hello World"});
-      });
+      .route("/login")
+      .link(() => GetIt.I.get<LoginController>());
 
-    router
-      .route("/example2")
-      .linkFunction((request) async {
-        return Response.ok({"Tag": "Hello World 2"});
-      });
+    
   }
   
 }

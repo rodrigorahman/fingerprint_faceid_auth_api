@@ -1,5 +1,6 @@
 import 'package:fingerprint_faceid_auth_api/application/configs/di_config.dart';
 import 'package:fingerprint_faceid_auth_api/application/configs/fingerprint_faceid_config.dart';
+import 'package:fingerprint_faceid_auth_api/application/helpers/cripty_helper.dart';
 import 'package:fingerprint_faceid_auth_api/application/routers/router_configure.dart';
 import 'package:fingerprint_faceid_auth_api/fingerprint_faceid_auth_api.dart';
 import 'package:get_it/get_it.dart';
@@ -21,7 +22,7 @@ class FingerprintFaceidAuthApiChannel extends ApplicationChannel {
     
     GetIt.instance.registerLazySingleton(() => FingerprintFaceidConfig(options.configurationFilePath));
     configureDependencies();
-
+    print('Senha ${CriptyHelper.generateSHA256Hash('rodrigorahman')}');
   }
 
   /// Construct the request channel.

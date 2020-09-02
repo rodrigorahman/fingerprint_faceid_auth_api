@@ -14,6 +14,7 @@ dependencies:
   dartz: ^0.9.1
   freezed_annotation: ^0.11.0+1
   equatable: ^1.2.4
+  jaguar_jwt: ^2.1.6
 
 dev_dependencies:
   freezed: ^0.11.5
